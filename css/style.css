@@ -62,6 +62,35 @@
   color: #555252;
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #555252;
+}
+.downloadDesc a:hover {
+  color: #b9b9b9;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.emailObc {
+  text-decoration: none;
+  color: #555252;
+}
+.emailObc:hover {
+  color: #b9b9b9;
+}
+.emailObc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
 @media (max-width: 449px) {
   .downloadDesc button {
     margin-right: 10px 0px;
@@ -205,23 +234,6 @@
   background-color: black;
 }
 
-.downloadDesc {
-  background-color: black;
-  height: 85vh;
-  padding-top: 240px;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: #555252;
-}
-.downloadDesc a:hover {
-  color: #b9b9b9;
-}
-.downloadDesc button {
-  border: 2px solid white;
-  margin-right: 10px;
-}
-
 @media (max-width: 768px) {
   .numbers .titleNumb {
     font-size: 80px;
@@ -255,6 +267,117 @@
   }
   .subTitleFalcon {
     font-size: 16px;
+  }
+}
+.container00.container08 {
+  background-image: url(../../images/humanFlight/01.jpg);
+}
+.container00.container10 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+.container00.container11 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+.container00.container12 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+.container00.container13 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 72px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc .textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitleSection {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 150px;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textDescEarth {
+    font-size: 16px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .container01Content img {
+    width: 100px;
   }
 }
 
